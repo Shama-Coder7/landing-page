@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: black;
+  background-color: bisque;
+}
+
+header {
+  height: 101px;
+  z-index: 10;
+  position: relative;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 104), 0 2px 2px;
+  background-color: rgb(167, 216, 248);
+}
+
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 51px;
+  width: 51px;
+}
+
+.logo img {
+  height: 150%;
+  width: auto;
+  border-radius: 47px;
+  margin: 4px;
+}
+.title {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+}
+
+/* .left-nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+} */
+
+.right-nav {
+  display: flex;
+  height: 40%;
+  margin: 20px 30px;
+}
+
+.sign-up,
+.join-now {
+  padding: 7px 16px;
+  border: 1px solid;
+  border-radius: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.sign-up {
+  margin-right: 16px;
+}
+
+.sign-up:hover {
+  background-color: cornsilk;
+  text-overflow: clip;
+}
+
+.join-now {
+  background-color: lightgreen;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.join-now:hover {
+  background-color: green;
+  border-color: black;
+}
